@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>maiShopping</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRegisterAction</servlet-name>
+    <servlet-class>servlet.UserRegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValidateNameAction</servlet-name>
+    <servlet-class>servlet.ValidateNameAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLoginAction</servlet-name>
+    <servlet-class>servlet.UserLoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValidateEmailAction</servlet-name>
+    <servlet-class>servlet.ValidateEmailAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLoginAction</servlet-name>
+    <servlet-class>servlet.AdminLoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoppingCartAction</servlet-name>
+    <servlet-class>servlet.ShoppingCartAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsAction</servlet-name>
+    <servlet-class>servlet.GoodsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConfirmOrderAction</servlet-name>
+    <servlet-class>servlet.ConfirmOrderAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserRegisterAction</servlet-name>
+    <url-pattern>/UserRegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ValidateNameAction</servlet-name>
+    <url-pattern>/ValidateNameAction</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>UserLoginAction</servlet-name>
+    <url-pattern>/UserLoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ValidateEmailAction</servlet-name>
+    <url-pattern>/ValidateEmailAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginAction</servlet-name>
+    <url-pattern>/AdminLoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingCartAction</servlet-name>
+    <url-pattern>/ShoppingCartAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsAction</servlet-name>
+    <url-pattern>/GoodsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfirmOrderAction</servlet-name>
+    <url-pattern>/ConfirmOrderAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GoodsListAction</servlet-name>
+    <servlet-class>servlet.GoodsListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GoodsListAction</servlet-name>
+    <url-pattern>/servlet/GoodsListAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>WebGoodsManageAction</servlet-name>
+    <servlet-class>servlet.WebGoodsManageAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WebGoodsManageAction</servlet-name>
+    <url-pattern>/servlet/WebGoodsManageAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ClassifySecondListAction</servlet-name>
+    <servlet-class>servlet.ClassifySecondListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClassifySecondListAction</servlet-name>
+    <url-pattern>/servlet/ClassifySecondListAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BackGoodsListAction</servlet-name>
+    <servlet-class>servlet.BackGoodsListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BackGoodsListAction</servlet-name>
+    <url-pattern>/servlet/BackGoodsListAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GoodsAppearAction</servlet-name>
+    <servlet-class>servlet.GoodsAppearAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GoodsAppearAction</servlet-name>
+    <url-pattern>/servlet/GoodsAppearAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GoodsThridListAction</servlet-name>
+    <servlet-class>servlet.GoodsThridListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GoodsThridListAction</servlet-name>
+    <url-pattern>/servlet/GoodsThridListAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BackOrderAction</servlet-name>
+    <servlet-class>servlet.BackOrderAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BackOrderAction</servlet-name>
+    <url-pattern>/servlet/BackOrderAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ClassifyAction</servlet-name>
+    <servlet-class>servlet.ClassifyAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClassifyAction</servlet-name>
+    <url-pattern>/servlet/ClassifyAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>FindGoodsAction</servlet-name>
+    <servlet-class>servlet.FindGoodsAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindGoodsAction</servlet-name>
+    <url-pattern>/servlet/FindGoodsAction</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>GoodsInsertAction</servlet-name>
+    <servlet-class>servlet.GoodsInsertAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GoodsInsertAction</servlet-name>
+    <url-pattern>/servlet/GoodsInsertAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>GoodsModifyAction</servlet-name>
+    <servlet-class>servlet.GoodsModifyAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GoodsModifyAction</servlet-name>
+    <url-pattern>/servlet/GoodsModifyAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>OrderAction</servlet-name>
+    <servlet-class>servlet.OrderAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderAction</servlet-name>
+    <url-pattern>/servlet/OrderAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>OrderDetialAction</servlet-name>
+    <servlet-class>servlet.OrderDetialAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderDetialAction</servlet-name>
+    <url-pattern>/servlet/OrderDetialAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>OrderStatusAction</servlet-name>
+    <servlet-class>servlet.OrderStatusAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderStatusAction</servlet-name>
+    <url-pattern>/servlet/OrderStatusAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>StatusModifyAction</servlet-name>
+    <servlet-class>servlet.StatusModifyAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackIndexAction</servlet-name>
+    <servlet-class>servlet.BackIndexAction</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>StatusModifyAction</servlet-name>
+    <url-pattern>/servlet/StatusModifyAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackIndexAction</servlet-name>
+    <url-pattern>/BackIndexAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name> UserInfoGetAction</servlet-name>
+  	<servlet-class> servlet.UserInfoGetAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> UserInfoGetAction</servlet-name>
+  	<url-pattern> /servlet/UserInfoGetAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name> UserInfoUpdate</servlet-name>
+  	<servlet-class> servlet.UserInfoUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> UserInfoUpdate</servlet-name>
+  	<url-pattern> /servlet/UserInfoUpdate</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  	<servlet-name> PasswordGetAction</servlet-name>
+  	<servlet-class> servlet.PasswordGetAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> PasswordGetAction</servlet-name>
+  	<url-pattern> /servlet/PasswordGetAction</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  	<servlet-name> PasswordUpdateAction</servlet-name>
+  	<servlet-class> servlet.PasswordUpdateAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> PasswordUpdateAction</servlet-name>
+  	<url-pattern> /servlet/PasswordUpdateAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name> AddressGetAction</servlet-name>
+  	<servlet-class> servlet.AddressGetAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> AddressGetAction</servlet-name>
+  	<url-pattern> /servlet/AddressGetAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name> AddressUpdateAction</servlet-name>
+  	<servlet-class> servlet.AddressUpdateAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> AddressUpdateAction</servlet-name>
+  	<url-pattern> /servlet/AddressUpdateAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name> AddressInsertAction</servlet-name>
+  	<servlet-class> servlet.AddressInsertAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> AddressInsertAction</servlet-name>
+  	<url-pattern> /servlet/AddressInsertAction</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  	<servlet-name> AddressDeleteAction</servlet-name>
+  	<servlet-class> servlet.AddressDeleteAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> AddressDeleteAction</servlet-name>
+  	<url-pattern> /servlet/AddressDeleteAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name> ReviewGetAction</servlet-name>
+  	<servlet-class> servlet.ReviewGetAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> ReviewGetAction</servlet-name>
+  	<url-pattern> /servlet/ReviewGetAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name> ReviewInsertGetAction</servlet-name>
+  	<servlet-class> servlet.ReviewInsertGetAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> ReviewInsertGetAction</servlet-name>
+  	<url-pattern> /servlet/ReviewInsertGetAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name> ReviewInsertAction</servlet-name>
+  	<servlet-class> servlet.ReviewInsertAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> ReviewInsertAction</servlet-name>
+  	<url-pattern> /servlet/ReviewInsertAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name> MessageGetAction</servlet-name>
+  	<servlet-class> servlet.MessageGetAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> MessageGetAction</servlet-name>
+  	<url-pattern> /servlet/MessageGetAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name> MessageInsertAction</servlet-name>
+  	<servlet-class> servlet.MessageInsertAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> MessageInsertAction</servlet-name>
+  	<url-pattern> /servlet/MessageInsertAction</url-pattern>
+  </servlet-mapping>
+<servlet>
+		<servlet-name>BeforeContentListAction</servlet-name>
+		<servlet-class>servlet.BeforeContentListAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BeforeContentListAction</servlet-name>
+		<url-pattern>/servlet/BeforeContentListAction</url-pattern>
+	</servlet-mapping>
+<servlet>
+		<servlet-name>BeforNoticeListAction</servlet-name>
+		<servlet-class>servlet.BeforNoticeListAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BeforNoticeListAction</servlet-name>
+		<url-pattern>/servlet/BeforNoticeListAction</url-pattern>
+	</servlet-mapping>
+
+   <servlet>
+    <servlet-name>NoticeListAction</servlet-name>
+    <servlet-class>servlet.NoticeListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NoticeListAction</servlet-name>
+    <url-pattern>/servlet/NoticeListAction</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>NoticeAddAction</servlet-name>
+    <servlet-class>servlet.NoticeAddAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NoticeAddAction</servlet-name>
+    <url-pattern>/servlet/NoticeAddAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>NoticeEditAction</servlet-name>
+    <servlet-class>servlet.NoticeEditAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NoticeEditAction</servlet-name>
+    <url-pattern>/servlet/NoticeEditAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>NoticeGetId</servlet-name>
+    <servlet-class>servlet.NoticeGetId</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NoticeGetId</servlet-name>
+    <url-pattern>/servlet/NoticeGetId</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>NoticeDeleteAction</servlet-name>
+    <servlet-class>servlet.NoticeDeleteAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NoticeDeleteAction</servlet-name>
+    <url-pattern>/servlet/NoticeDeleteAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MessageListAction</servlet-name>
+    <servlet-class>servlet.MessageListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MessageListAction</servlet-name>
+    <url-pattern>/servlet/MessageListAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MessageReplyAction</servlet-name>
+    <servlet-class>servlet.MessageReplyAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MessageReplyAction</servlet-name>
+    <url-pattern>/servlet/MessageReplyAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CommentListAction</servlet-name>
+    <servlet-class>servlet.CommentListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CommentListAction</servlet-name>
+    <url-pattern>/servlet/CommentListAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CommentDeleteAction</servlet-name>
+    <servlet-class>servlet.CommentDeleteAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CommentDeleteAction</servlet-name>
+    <url-pattern>/servlet/CommentDeleteAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AdImagListAction</servlet-name>
+    <servlet-class>servlet.AdImagListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdImagListAction</servlet-name>
+    <url-pattern>/servlet/AdImagListAction</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>SelectCommentListAction</servlet-name>
+    <servlet-class>servlet.SelectCommentListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectCommentListAction</servlet-name>
+    <url-pattern>/servlet/SelectCommentListAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ShowImagAction</servlet-name>
+    <servlet-class>servlet.ShowImagAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowImagAction</servlet-name>
+    <url-pattern>/servlet/ShowImagAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AdImagAddAction</servlet-name>
+    <servlet-class>servlet.AdImagAddAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdImagAddAction</servlet-name>
+    <url-pattern>/servlet/AdImagAddAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AdImagDeleteAction</servlet-name>
+    <servlet-class>servlet.AdImagDeleteAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdImagDeleteAction</servlet-name>
+    <url-pattern>/servlet/AdImagDeleteAction</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>BackUserInfoGetAction</servlet-name>
+    <servlet-class> servlet.BackUserInfoGetAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BackUserInfoGetAction</servlet-name>
+    <url-pattern> /servlet/BackUserInfoGetAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BackUserUpdateAction</servlet-name>
+    <servlet-class> servlet.BackUserUpdateAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BackUserUpdateAction</servlet-name>
+    <url-pattern> /servlet/BackUserUpdateAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BackUserDeleteAction</servlet-name>
+    <servlet-class> servlet.BackUserDeleteAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BackUserDeleteAction</servlet-name>
+    <url-pattern> /servlet/BackUserDeleteAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BackAdminInfoGetAction</servlet-name>
+    <servlet-class> servlet.BackAdminInfoGetAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BackAdminInfoGetAction</servlet-name>
+    <url-pattern> /servlet/BackAdminInfoGetAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BackAdminUpdateAction</servlet-name>
+    <servlet-class> servlet.BackAdminUpdateAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BackAdminUpdateAction</servlet-name>
+    <url-pattern> /servlet/BackAdminUpdateAction</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>BackGoodsAction</servlet-name>
+    <servlet-class> servlet.BackGoodsAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BackGoodsAction</servlet-name>
+    <url-pattern> /servlet/BackGoodsAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BackGoodsClassAction</servlet-name>
+    <servlet-class> servlet.BackGoodsClassAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BackGoodsClassAction</servlet-name>
+    <url-pattern> /servlet/BackGoodsClassAction</url-pattern>
+  </servlet-mapping>
+</web-app>

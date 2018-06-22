@@ -1,0 +1,94 @@
+@charset "utf-8";
+#content {
+	clear: both;
+	height: 400px;
+	position: relative;
+	background-color:"#CCE5FD" ;
+}
+#userlogin {
+	background-color:#F3F3F3;
+	padding: 0px;
+	
+	width: 590px;
+	height: 310px;
+	border:3px solid #F3F3F3;
+	border-radius:25px;
+	margin: 0 auto;
+	margin-top: 110px;
+}
+
+
+#user_main LI{
+    FLOAT: left;
+    LIST-STYLE-TYPE: none;
+
+}
+
+.user_main_l {
+	FLOAT: left; WIDTH: 59px;
+	HEIGHT: 80px;
+}
+
+#user_top  li{
+	LIST-STYLE-TYPE: none;
+}
+
+#adminName {
+	height: 21px;
+	margin-top: 5px;
+}
+
+#adminPassword {
+	margin-top: 5px;
+	height: 21px;
+}
+
+.user_mian_img {
+	padding-top: 6px;
+}
+
+.user_main_button {
+	width: 90%;
+	height: 40px;
+		font-size: 20px;
+		font-family:"Microsoft Yahei";
+		border-radius:5px;
+		margin-left: 20px;
+	margin-top: 10px;
+	background-color:#2DA5F1;
+	color: aliceblue;
+		
+}
+
+
+
+.user_top_img {
+	margin-left: -100px;
+	padding-right: 0 px;
+	
+}
+
+
+
+.foot {
+	font-family: "微软雅黑";
+	color: #000000;
+		width:100%;
+height: 40px;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.uer_main_button_li {
+	padding-top: 15px;
+	height: 50px;
+	width: 220px;
+}
+
+.user_main_box {
+	height: 80px;
+	margin-top: -15px;
+}
+
+

@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+.goodsAll{
+	height:auto;
+	margin-top:40px;
+	margin-bottom:120px;
+}
+.goodsAll hr{/*分割线*/
+    width: 620px;
+    margin:60px auto 10px auto;
+    border:none;
+    border-top:dotted  #CCC thin;
+    position: relative;
+}
+.goods1{
+	
+	font:28px bolder;
+	color:#341F26;
+	margin-left:20px;
+}
+.goods1 a{
+	color:#333;
+    text-decoration:none;
+    font:20px bold;
+}
+.goods1 a:hover{
+	color:#f9485a;
+}
+
+.goodsPic{
+	list-style:none; 
+	height:280px;
+}
+.goodsPic li{
+	width:300px;
+	float:left;
+	height:280px;
+	margin:10px;
+	border:1px solid #800000;
+	text-align:center;
+	background-color:#e3d2d8;
+}
+.goodsPic img{
+	width:300px;
+}

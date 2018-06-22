@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+.orderFont1{
+	font-size: 28px;
+	font-weight:500;
+	color:#900;
+	font-family: "Microsoft Yahei";
+    text-shadow: 2px 2px 2px #999;
+	margin:10px 60px;
+}
+
+.orderCenter{
+	width:80%;
+	margin:0px auto 100px;    /*这样设就居中了*/
+}
+.return_P{
+    float:left;
+    width:200px;
+	font-size: 20px;
+	font-weight:100;
+	color:#867D81;
+	font-family: "Microsoft Yahei";
+	margin-left:40px;
+	margin-top:30px;
+}
+.return_P a:hover{
+	color:#900;
+}

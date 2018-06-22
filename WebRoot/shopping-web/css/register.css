@@ -1,0 +1,101 @@
+								
+	 .title-wrap .register-title {height: 45px;
+										width: 100%;
+										font-size: 20px;
+										text-align: center;
+										margin-top: 20px;}
+
+	#register {height: auto;
+				overflow: hidden;
+				width: 1200px;
+				margin:0 auto;
+				min-height: 500px;}
+	.register-container {width: 500px;
+						box-shadow: 0px 0px 2px 2px #FF2925;
+						margin:0 auto;
+						padding-bottom: 10px;
+						padding-top: 20px;
+						margin-top: 5px;
+						margin-bottom: 5px;}
+
+	.input-wrap input  {width: 400px;
+						height: 34px;
+						font-size: 14px;
+						line-height: 30px;
+						margin-top: 10px;
+						margin-bottom: 10px;
+						margin-left: 45px;
+						border-radius: 2px;}
+	.input-wrap .uneditable-input{
+	
+		background-color:white;
+		cursor: pointer;
+	}
+	.input-wrap .uneditable-input:focus{
+	color: rgba(0,0,0,1.00);
+	 border-color:rgba(255,7,11,0.80);
+	outline: thin dotted rgba(253,90,92,0.60);
+	  outline: 0;
+ 
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 5px rgba(253,90,92,0.60);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 5px rgba(253,90,92,0.60);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 5px rgba(253,90,92,0.60);
+}
+	.input-wrap #gender{
+	display:inline;
+		width:50px;
+		height:15px;
+		font-size: 4px;
+		line-height: 10px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		margin-left: 15px;
+	}
+	.input-wrap .genderzi{
+	margin-left: 45px;
+	
+	}
+.input-wrap select  {width: 400px;
+						height: 34px;
+						font-size: 14px;
+						line-height: 30px;
+						margin-top: 10px;
+						margin-bottom: 10px;
+						margin-left: 45px;
+						border-radius: 2px;}
+.input-wrap select:focus{
+	color: rgba(0,0,0,1.00);
+	 border-color:rgba(255,7,11,0.80);
+	outline: thin dotted rgba(253,90,92,0.60);
+	  outline: 0;
+ 
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 5px rgba(253,90,92,0.60);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 5px rgba(253,90,92,0.60);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 5px rgba(253,90,92,0.60);
+}
+	/*设置提示信息位置*/
+	.error-tip {height: auto;
+				overflow:hidden;
+				margin-left: 45px;
+				color:red;}
+	.error-tip label {line-height: auto;
+					display: block;
+					margin-bottom: 0;}
+	.glyphicon-asterisk {font-size: 10px;
+						color: red;}
+	
+	.btns {width: 400px;
+			margin-left: 45px;
+			margin-top: 30px;}
+	.btns .btn {width: 180px;
+				height: 40px;
+				background-color: #FF1425!important;
+				font-size: 16px;
+				letter-spacing: 10px;}
+	.btn-submit {margin-right: 30px;
+		background-color: #FF1425 ;
+}

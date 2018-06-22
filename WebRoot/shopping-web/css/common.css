@@ -1,0 +1,119 @@
+@CHARSET "UTF-8";
+
+   * {padding:0;margin:0;font-family: "Microsoft Yahei"}
+
+.bg{
+	background-color:#fbfafa;
+	padding: 0;
+    margin: 0;
+    margin-height:100%;
+    overflow: hidden;
+}
+#head{
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+	color:#edecec;
+	background-color:white;
+	
+	
+}
+
+#foot{
+	
+	width:100%;
+	height:250px;
+	color:#333;
+	font-size: 18px;
+	font-weight: 100;
+	background-color:#edecec;
+	border-top:#f23d4e 8px solid;
+	margin-top: 30px;
+	
+}
+.bfoot{
+	float:right;
+	width:100%;
+	height:100px;
+	color:#FFF;
+	font-size: 18px;
+	font-weight: 100;
+	background-color:#333;
+	text-align:center;
+}
+
+.footldiv{
+	float:left;
+	margin-top:30px; 
+	margin-left:50px;
+	color:#333;
+}
+.footrdiv{
+	float:left;
+	margin-top:15px; 
+	margin-left:200px;
+}
+.footrdiv tr{
+	margin-left:5px;
+	height:50px;
+	color:#333;
+}
+
+.fldiv{
+	overflow: hidden;
+	float:left;
+	margin-top:8px; 
+	margin-left:8px;
+}
+.frdiv{
+	float:right;
+	
+	margin-right:10px;
+	
+}
+.tstyle{
+	padding-left:10px;
+	padding-top:10px;
+	width:5%;
+	
+}
+.ftstyle {
+	border-left:#333 1px solid;
+}
+
+
+
+.nav1{
+	list-style:none; 
+	height:30px;
+	margin-top:40px; 
+	padding-left:200px;
+	
+}
+.nav1 li{
+	float:left;
+}
+.nav1 li a{
+	cursor: pointer;
+	color:#e4e4e4;
+	display:block; 
+	height:45px;
+	text-align:center; 
+	line-height:45px; 
+	width:120px; 
+	background:#f23d4e ; 
+	margin-left:1px;
+	 text-decoration:none;
+	font-size: 15px;
+	font-weight: 500; 
+}
+.nav1 li a.on, .nav1 li a:hover{
+	background:#f9485a;
+	color:#FFF; 
+	height:55px; 
+	line-height:55px; 
+	margin-top:-10px 
+	}
+.himg {
+	padding-top: 2px;
+}

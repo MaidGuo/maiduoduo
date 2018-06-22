@@ -1,0 +1,88 @@
+@charset "utf-8";
+html { overflow-y:scroll; }
+body{background-color:#fbfafa; padding:0; margin:0; color:#5A5A5A;}
+div, ul, li { padding:0; margin:0; }
+li { list-style-type:none; }
+img { vertical-align:top; border:0; }
+#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:12px; line-height:30px;}
+#n a{ padding:0 4px; color:#333}
+
+/* 图片 */
+.tb-pic a { display:table-cell; text-align:center; vertical-align:middle; }
+.tb-pic a img {vertical-align:middle; }
+.tb-pic a {*display:block;*font-family:Arial;*line-height:1;}
+.tb-thumb {margin:10px 0 0; overflow:hidden; }
+.tb-thumb li {background:none repeat scroll 0 0 transparent; float:left; height:42px; margin:0 6px 0 0; overflow:hidden; padding:1px; }
+.tb-s310, .tb-s310 a { }
+.tb-s310, .tb-s310 img {max-height:250px; max-width:300px; }
+.tb-s310 a { *font-size:271px;}
+.tb-s40 a { *font-size:35px;}
+.tb-s40, .tb-s40 a { height:40px; width:40px; }
+.tb-booth { position:relative; z-index:1; }
+.tb-thumb .tb-selected { background:none repeat scroll 0 0 #C30008; height:40px; padding:2px; }
+.tb-thumb .tb-selected div { background-color:#FFFFFF; border:medium none; }
+.tb-thumb li div { border:1px solid #CDCDCD; }
+div.zoomDiv { z-index:999; position:absolute; top:0px; left:0px; width:200px; height:200px; background:#ffffff; border:1px solid #CCCCCC; display:none; text-align:center; overflow:hidden; }
+div.zoomMask { position:absolute; background:url("img/images/mask.png") repeat scroll 0 0 transparent; cursor:move; z-index:1; }
+/*上部：图片和详情*/
+.redSet{color:red;}
+.goodsC{margin:30px ; height:330px; }
+.goodsL{float:left; margin:auto 60px; height:260px; width:300px;  }/*border:1px solid #F03;*/
+.goodsR{float:left; margin-right:40px; width:340px; height:260px; font-size:24px; font-weight:100; font-family:"宋体";  background-color:#FFF;}/*border:#F03 solid thin;*/
+.goodsR ul li{list-style-type:none; font-size:16px; font-weight:100; font-family:"宋体"; line-height:35px; margin-left:25px;}
+
+.buttonBuy{height:40px; width:280px; border:#F06 thin solid; font-size:24px;color:#FFF; background-color:#F33;}
+.littleHead{height:40px; width:340px; background-color:#FBA06A; font-size:24px; font-weight:300; font-family:"宋体"; margin-left:0 !important; text-align:center; color:#FDE8D5; }
+.viewHead{width:90%; height:30px; margin:20px auto;background-color:#FEE7C7; border:#E95F36 thin solid !important; font-size:24px; font-weight:100; font-family:"宋体"; color:#E95F36;}
+.viewPart  li{width:90%; height:auto; border-bottom:#C1C1C1 thin solid; margin:10px auto; font-size:24px; font-weight:300; font-family:"宋体"; }
+
+/*购物车数量加减 border:thin solid #666;*/
+.numBuy{float:right; margin-right:60px;}
+.numBuy input{width:35px; height:25px;margin:0; background-color:#C2C2C2;font-size: 18px;display: inline-block;  cursor: pointer; border: 1px solid #e6e6e6;}
+#shang{ background-color:#FFF; height:28px; width:45px; }
+ .btn-numbox { overflow: hidden;margin-top: 20px;}
+.btn-numbox li {
+	float: left;
+}
+
+.btn-numbox li .number, .kucun {
+	display: inline-block;
+	font-size: 12px;
+	color: #808080;
+	vertical-align: sub;
+}
+
+.btn-numbox .count {
+	overflow: hidden;
+	margin: 0 16px 0 -20px;
+}
+
+.btn-numbox .count .num-jian, .input-num, .num-jia {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 18px;
+	color: #999;
+	cursor: pointer;
+	border: 1px solid #e6e6e6;
+}
+
+.btn-numbox .count .input-num {
+	width: 58px;
+	height: 26px;
+	color: #333;
+	border-left: 0;
+	border-right: 0;
+}
+.little{/*灰色小字不可复制*/
+    margin-top:80px;
+	font-size:16px;
+	color: #adadad;
+	-moz-user-select: none; /*火狐*/
+	-webkit-user-select: none; /*webkit浏览器*/
+	-ms-user-select: none; /*IE10*/
+	-khtml-user-select: none; /*早期浏览器*/
+	user-select: none;}
+	
